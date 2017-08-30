@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: eldorado-noite-0
+  host: eldorado-noite-0
+  disk_quota: 1024M
+  services:
+    - sample-db
